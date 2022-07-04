@@ -1,11 +1,10 @@
-	import './css/styles.css';
+import './css/styles.css';
 import debounce from 'lodash.debounce';
 import { fetchCountries } from './js/fetchCountries';
 import Notiflix from 'notiflix';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
 const DEBOUNCE_DELAY = 300;
-
 const searchBox = document.querySelector("#search-box");
 const countryList = document.querySelector(".country-list");
 const countryCard = document.querySelector(".country-info");

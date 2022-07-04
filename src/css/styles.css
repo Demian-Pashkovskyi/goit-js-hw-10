@@ -28,11 +28,11 @@ ol {
 
 .country-name-wrapper {
 	display: flex;
-  	align-items: center;
-  	margin-bottom: 20px;
+	align-items: center;
+	margin-bottom: 20px;
 }
 
 .country-name {
 	font-weight: 700;
 	margin: 0 10px;
- }
+}
